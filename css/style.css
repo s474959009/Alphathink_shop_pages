@@ -1,0 +1,32 @@
+/*主体*/
+.g-mn{float:left;width:980px;}
+/*宣传*/
+.m-ad{overflow:hidden; height:200px;border:3px solid #FF7F50;}
+/*物品展示*/
+.m-list a{text-decoration:none;color:#666666;}
+.m-list a:hover{color:#FF7F50;}
+.m-list .u-cb{zoom:1;position:absolute;float:left;padding-bottom:4px;margin-right:6px;border-top:0 none;border-radius:2px;background-repeat:no-repeat;background-position:right bottom;background-image:url(../img/20130925155758_y3Bw4.gif);color:#666666;}
+.m-list .j{width:222px;margin-top:6px;padding-top:11px;list-style:none;border:2px solid #E5E5E5;box-shadow:1px 0 1px #F3F3F3;}
+.u-img{width:200px;margin-left:11px;overflow:hidden;}
+.u-img img{max-width:200px;margin-left:auto;margin-right:auto;}
+.u-img a{height:100%;width:100%;}
+.u-title{display:block;position:relative;padding:8px 11px 6px;font:14px/14px "Microsoft Yahei";background-color:#F8F8F8;}
+.u-title span{position:absolute;right:11px;font:12px/12px "Microsoft Yahei";}
+.u-info1{position:relative;padding:8px 0 7px;border-top:1px solid #EFEEED;background-color:#F8F8F8;}
+.u-info1 .u-addr{font:bold 12px/12px "Microsoft Yahei";padding-left:11px;}
+.u-info1 .u-price{right:11px;position:absolute;font:bold 18px/18px "Microsoft Yahei";color:#FF7F50;}
+.u-info2{position:relative;padding:5px 0 4px;border-top:1px solid #EFEEED;background-color:#49C763;}
+.u-info2 .u-stts{display:block;width:100%;font:12px/12px "Microsoft Yahei";text-align:center;color:#FFF;}
+.u-info3{position:relative;padding:5px 0 5px;border-top:1px solid #EFEEED;background-color:#F8F8F8;}
+.u-info3 .u-hot-cmt{font:bold 11px/12px "Microsoft Yahei";color:#FA5858}
+.u-info3 .u-hot{padding: 0 11px;font-size: 11px;}
+.id5 .u-info2{background-color:#FA5858;}
+.id3 .u-info2{background-color:#FA5858;}
+.id1 .u-info2{background-color:#FA5858;}
+.id1{left:0;top:0;}
+.id2{left:252px;top:0;}
+.id3{left:504px;top:0;}
+.id4{left:756px;top:0;}
+.id5{left:0;top:365px;}
+.id6{left:252px;top:365px;}
+

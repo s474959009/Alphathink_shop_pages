@@ -1,0 +1,30 @@
+body{background-color:#F7F7F7;}
+*::-moz-selection{background:none repeat scroll 0 0 #CEE3F2;color:rgba(255, 255, 255, 0.85);}
+/* head */
+html, body, #content{background-color:#f7f7f7;}
+#content{position:relative;width:960px;height:700px;padding-bottom:24px;margin:0 auto;background:url(../img/login-bg.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.toindex {display:block;position:absolute;top:58px;right:397px;width:167px;height:54px;}
+/*第三方登录*/
+#log-other{width:480px;display:inline;float:left !important;}
+.loreg{float:left;margin:280px 0 0 120px;width:194px;}
+.loreg a:link,.loreg a:visited{float:left;margin-bottom:40px;width:194px;height:40px;background:url(http://cdn.duitang.com/uploads/people/201206/15/20120615102507_QEYB4.png) repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.loreg a.sinaregbtn:link,.loreg a.sinaregbtn:visited {background-position: 0 0;}
+.loreg a.qqregbtn:link,.loreg a.qqregbtn:visited {background-position: 0 -190px;}
+.loreg a.qweiboregbtn:link,.loreg a.qweiboregbtn:visited {background-position: 0 -60px;}
+/*本站登录*/
+.log-main{display:inline;float:left;width:480px;}
+.log-content{float:left;margin:255px 0 0 150px;width:300px;}
+/*表单*/
+.field-wrapper label{padding-bottom:0.4em;display:block;font-size:15px;line-height:18px;color:#595959;}
+.field-wrapper input{width:280px;}
+.input-append input{width:200px;}
+.input-append .u-code1{width:80px;}
+.input-append .u-code1:hover{text-decoration:underline;}
+.log-controls a{float:left;width:40%}
+.log-controls{margin-bottom:24px;}
+.stay-signed-in{padding-left:15px;overflow:hidden;height:42px;border-radius:3px;line-height:43px;background:none repeat scroll 0 0 #F1F1F1;}
+.stay-signed-in:hover{background-color: #e3e3e3}
+.stay-checkbox{display:inline-block;vertical-align:middle;height:24px;width:24px;}
+.checkboxinput{display:block;height:24px;width:24px;}
+.log-reg{font-size: 15px;text-align:center;}
+.log-reg a{color:#2C9AB7;}

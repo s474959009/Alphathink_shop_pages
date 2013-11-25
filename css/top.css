@@ -1,0 +1,24 @@
+/*头部样式*/
+.g-hd{position:fixed;width:100%;overflow:visible;z-index:1001;padding:5px 0;border-bottom:1px solid #EEEEEE;box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);background:#FFFFFF;}
+.g-topbar{position:relative;width:980px;margin:0 auto;}
+/*头部logo*/
+.g-topbar .logo{float:left;width:auto;}
+.g-topbar .logo a{display:block;width:170px;height:60px;background:url(../img/logo.png);}
+/*搜索*/
+.m-sch{float:left;width:382px;padding:12px 120px;}
+.g-hd .sch-form{position:relative;height:36px;overflow:hidden;}
+.sch-form .sch-text{position:relative;height:32px;width:210px;padding:0 2px;border:2px solid #FF7F50;border-radius:0 2px 2px 0;line-height:32px;font-size:14px;color:#666666;background-color:#fff;}
+.u-btn-sch{position: absolute;right: 0;height:36px;width:78px;background:#FF7F50;}
+.selSearch{float:left;width:78px;height:32px;border:2px solid #FF7F50;border-right:none;border-radius:2px 0 0 2px;background:#fff;line-height:30px;}
+.selSearch .nowSelect{float:left;width:48px;height:32px;line-height:32px;padding-left:5px;overflow:hidden;}
+.selSearch .btnSel{float:right;width:20px;height:32px;}
+.selSearch .btnSel a{display:block;position:relative;width:20px;height:32px;background:url(../img/btn_sel.png) no-repeat scroll center center;}
+.selSearch .selOption{z-index:9999;position:absolute;top:46px;width:58px;margin-left:-2px;border:2px solid #FF7F50;background:#fff;}
+.selSearch .selOption a{display:block;height:32px;padding-left:5px;line-height:32px;}
+.selSearch .selOption a:hover{color:#FFF;background-color:#FF7F50;}
+/*登录发布按钮*/
+.u-btn-log{float:left;height:30px;width:80px;line-height:30px;background-color:#9FBB58;color:#FFFFFF;}
+.u-btn-log:hover{background-color:#849f41;}
+.u-btn-pub{float:left;margin-left:30px;background-color:#5BA4E5;}
+.u-btn-pub:hover{background-color:#217FD2}
+.m-top-btn{position:absolute;right:0;margin-top:15px;}

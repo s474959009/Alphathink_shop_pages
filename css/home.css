@@ -1,0 +1,47 @@
+h4{color: #F47D4A;font-size:25px;margin-bottom:25px;line-height:50px;}
+.clear{clear:both;height:0px;overflow:hidden;}
+.g-bd{width:980px;}
+/**侧栏**/
+.g-sd{width:150px;}
+.tab-list a{padding:15px 30px;margin-bottom:10px;border-radius:2px;background:none repeat scroll 0 0 #E3E3E3;text-align:center;color:#8C8C8C;}
+#current-menu, .tab-list a:hover{background-color:#FF7F50;color:#FFFFFF;}
+/*选项卡*/
+#tabs{margin:0;overflow:auto;width:100%;padding:0;list-style:none outside none;}
+#tabs li{float:left;margin:0;padding-right:5px;}
+#tabs a{float:left;height:35px;padding:0 30px;font:bold 12px/35px 'Lucida sans',Arial,Helvetica;text-decoration:none;background-color:#217FD2;color:#FFFFFF;}
+#tabs a:hover{background-color: #5BA4E5;}
+#tabs a:focus{outline:0;}
+#tabs #current a{background:#F8F8F8;text-shadow:none;color:#333;}
+.g-mn{float:left;overflow:hidden;width:820px;}
+.mn-goods , .mn-id,.mn-info,.mn-msg{width:680px;margin:10px auto;}
+/*物品信息*/
+.ui-list{display:block;margin-top:30px;list-style:none outside none;}
+.ui-list-item{position:relative;display:block;overflow:hidden;background:none repeat scroll 0 0 #F8F8F8;}
+.ui-item-img {display:block;float:left;width:100px;height:100px;padding:5px;}
+.ui-item-img .ui-img-small{height:100px;width:100px;}
+img{vertical-align:middle;}
+.ui-item-info{position:relative;display:block;float:left;width:540px;}
+.ui-item-title{line-height: 30px;font-size: 16px;}
+.ui-item-title a{font-weight:700;color:#666666;}
+.ui-item-cmt{height:42px;width:100%;margin:6px 0;line-height:22px;font-size:13px;}
+.ui-item-detail .ui-item-price{position:absolute;left:0;font:bold 18px "微软雅黑";color:#F47D4A;}
+.ui-item-detail .ui-item-date{position:absolute;right:0;font-size:15px;}
+.ui-item-stts{position:absolute;right:0;top:0;height:100%;width:20px;background-color:#49C763;}
+.ui-item-stts .ui-stts-right{display:block;font:12px/22px "Microsoft Yahei";text-align:center;color:#FFFFFF;}
+/*上传图片*/
+.a-upload {display:inline-block;overflow:hidden;padding:4px 10px;position:relative;color:#888;background:#fafafa;border:1px solid #ddd;border-radius:3px;*display:inline;*zoom:1}
+.a-upload  input{position:absolute;right:0;top:0;filter:alpha(opacity=0);opacity:0;cursor:pointer;font-size:100px;}   
+.a-upload:hover{color:#444;background:#eee;}
+/*表单*/
+.field-wrapper label{display:block;padding-bottom:0.4em;line-height:18px;font-size:15px;color:#595959;}
+.card-info{padding:50px 0px;margin:20px 0;background:none repeat scroll 0 0 #EDECE4;}
+.f-tac{text-align: center;}
+#num,#card,.formPanel{margin:50px auto;width:330px;}
+.card-info p{line-height:20px;font-size:16px;}
+/*默认信息*/
+.info{margin:100px auto;width:330px;}
+.info h3{padding-bottom:20px;font-size:15px;color:#595959;}
+.msg-list{width:600px;margin:50px auto;}
+.msg-list dd{display:block;overflow:hidden;padding:4px 16px;border-bottom:1px dashed #CCCCCC;}
+.msg-list .list1{float:left;width:60px;}
+.msg-list .list2{float:left;overflow:hidden;padding:0 8px 8px;width:440px;word-break:break-all;word-wrap:break-word;}

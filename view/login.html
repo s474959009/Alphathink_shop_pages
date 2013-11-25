@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="../css/rest.css"/>
+<link rel="stylesheet" href="../css/login.css"/>
+</style>
+</head>
+<body>
+<div id="content">
+    <a class="toindex" href="/"></a>
+    <div class="log-main">
+    <div class="log-content">
+        <form>
+            <div class="field-wrapper">
+                <label>邮箱</label>
+                <input id="email" type="text" name="userName">
+            </div>
+            <div class="field-wrapper f-cb">
+                <label>密码</label>
+            <div class="input-append">
+                <input type="password" name="password">
+                <a class="u-code1">忘记密码?</a>
+            </div>
+            </div>
+            <div class="log-controls f-cb">
+                <a id="rest" class="u-btn u-btn-4" value="登录">登录</a>
+                <div class="stay-signed-in">
+                    <div class="stay-checkbox">
+                    <input class="checkboxinput" id="stay-signed-in" type="checkbox" checked="checked" name="memberPass">
+                    </div>
+                <label class="inline-block" for="stay-signed-in" >记住登录状态</label>
+                </div>
+            </div>
+            <div class="log-reg">
+                <a href="register.html">立即注册</a>
+            </div>
+        </form>
+    </div>
+    </div>        
+    <div id="log-other">
+        <div class="loreg">
+        <a class="sinaregbtn" onmousedown="_gaq.push(['_trackPageview', '/_trc/connect/login_weibo']);" href="/connect/sina/?next=/home/"></a>
+        <a class="qqregbtn" onmousedown="_gaq.push(['_trackPageview', '/_trc/connect/login_qq']);" href="/connect/qq/?next=/home/"></a>
+        <a class="qweiboregbtn" onmousedown="_gaq.push(['_trackPageview', '/_trc/connect/login_qweibo']);" href="/connect/qweibo/?next=/home/"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

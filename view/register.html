@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width"/>
+<link rel="stylesheet" href="../css/rest.css"/>
+<link rel="shortcut icon" href="img/favicon.ico"/>
+<link rel="apple-touch-icon" href="img/touchicon.png"/>
+</head>
+<body>
+    <div class="g-hd">
+        <div class="g-topbar f-cb">
+        <h1 class="logo">
+            <a href="#"></a>
+        </h1>
+        <div class="m-sch f-cb">
+        <div id="select" class="selSearch">
+        <p class="nowSelect" typename="全部物品">全部物品</p>
+        <span class="btnSel s1"><a href="#"></a></span>
+        <ul class="selOption" style="display:none;">
+        <li><a href="#">全部物品</a></li>
+        <li><a href="#">书籍资料</a></li>
+        <li><a href="#">IT数码</a></li>
+        <li><a href="#">生活用品</a></li>
+        <li><a href="#">文体卡券</a></li>
+        </ul>
+        </div>
+        <div class="sch-form">
+            <input class="sch-text" type="text">
+            <input class="u-btn u-btn-sch" type="button" value="搜索">
+        </div>
+        </div>
+        <div class="m-top-btn">
+            <a class="u-btn-1 u-btn-log" href="login.html" id="log">登录</a>
+            <a class="u-btn-1 u-btn-pub" href="register.html" id="pub">发布</a>
+        </div>
+    </div>
+    </div>
+    <div class="g-bd">
+        <div class="m-fm1">
+            <div id="body-left">
+                <form>
+                <h2>填写注册信息</h2>
+                <div class="field-wrapper">
+                <label>邮箱</label>
+                <input id="email" type="text" name="email">
+                <p>常用邮箱</p>
+                </div>
+                <div class="field-wrapper">
+                <label>密码</label>
+                <input id="password" type="password" name="password">
+                <p>6~8个字符，区分大小写</p>
+                </div>
+                <div class="field-wrapper">
+                <label>重复密码</label>
+                <input id="password" type="password" name="password">
+                <p>再次输入密码</p>
+                </div>
+                <div class="field-wrapper f-cb">
+                <label>验证码</label>
+                <div class="input-append">
+                <input type="text" name="VerifyCode">
+                <img class="u-code" src="http://reg.email.163.com/mailregAll/regvf1/verifyCodeImgF.jsp?env=488381217144&type=en&t=1333003692444" alt="验证码"/>
+                <a href="javascript:void(0);" class="u-code1">换一张</a>
+                </div>
+                </div>
+                <div class="log-controls">
+                <a id="rest" class="u-btn u-btn-3" type="reset" value="重置">重置</a>
+                <a id="next" class="u-btn u-btn-4" value="注册">注册</a>
+                </div>
+                </form>
+            </div>
+            <div id="body-middle" class="z-hide">
+                <form style="height: 517px;">
+                <h2>填写默认信息</h2>
+                <div class="field-wrapper">
+                <label>联系人称呼</label>
+                <input id="email" type="text" name="name">
+                <p>如：“张同学”</p>
+                </div>
+                    <div class="ipt">
+                        <label>校区</label>
+                        <div id="select">
+                        <p class="select s1">请选择</p>
+                        <ul style="display:none;" class="selOption" id="mylist">
+                            <li><a href="javascript:void(0);">新校区</a></li>
+                            <li><a href="javascript:void(0);">南校区</a></li>
+                            <li><a href="javascript:void(0)">北校区</a></li>
+                            <li><a href="javascript:void(0)">东校区</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                <div class="field-wrapper">
+                <label>QQ号码</label>
+                <input id="QQ" type="text" name="QQ">
+                <p>个人QQ号码</p>
+                </div>
+                <div class="field-wrapper">
+                <label>手机号码</label>
+                <input id="PhoneNumber" type="text" name="PhoneNumber">
+                <p>常用手机号码</p>
+                </div>
+                <div class="log-controls">
+                <a id="rest" class="u-btn u-btn-3" value="pass">以后再说</a>
+                <a id="save" class="u-btn u-btn-4" value="完成注册">完成注册</a>
+                </div>
+                </form>
+            </div>
+            <div id="body-right" class="z-hide">
+                <div class="reg-success">
+                <h2>注册成功</h2>
+                <div class="log-controls">
+                <a id="rest" class="u-btn u-btn-3" value="回到首页">回到首页</a>
+                <a id="save" class="u-btn u-btn-4" value="发布物品">发布物品</a>
+                </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div class="g-ft">
+          
+    </div>
+<script type="text/javascript" src="../js/jquery/jquery-1.7.1.js"></script>
+<script type='text/javascript' src="../js/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.u-append{display:block;}
+/*文字域样式*/
+.field-wrapper textarea {display:inline-block;position:relative;padding:3px 5px;resize:none;height:120px;width:310px;font-size:14px;;border:2px solid #C8C8C8;border-radius:3px;background-color:#FFFFFF;}
+.field-wrapper textarea:hover{border-color:#FF7F50;}
+.field-wrapper h4{margin-bottom:5px;}
+.u-append h3{float:left;margin-right:-2px;height:36px;width:42px;border:2px solid #C8C8C8;border-right:medium none;border-radius:3px;text-align:center;line-height:36px;background:none repeat scroll 0 0 #F1F1F1;color:#FF7F50;}
+.u-append input{float:left;width:270px;border-radius:0 3px 3px 0;border-style:solid solid solid none;}
+.u-append input:hover{border-left:medium none;}
+/** 上传图片 **/
+.a-upload {display:inline-block;overflow:hidden;padding:4px 10px;height:20px;line-height:20px;position:relative;color:#888;background:#fafafa;border:1px solid #ddd;border-radius:3px;*display:inline;*zoom:1}
+.a-upload  input{position:absolute;right:0;top:0;filter:alpha(opacity=0);opacity:0;cursor:pointer;font-size:100px;}   
+.a-upload:hover{color:#444;background:#eee;}
